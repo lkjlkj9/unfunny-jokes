@@ -1,0 +1,37 @@
+body {
+  background-color: white;
+}
+.joke-panel {
+  height: 100px;
+  width: 100%;
+  box-shadow: 5px 0 5px 5px rgba(128, 128, 128, 0.397);
+  padding: 20px;
+  margin: 20px 0;
+}
+.joke-panel > h3 {
+  margin-bottom: 5px;
+}
+button {
+  height: 40px;
+  width: 110px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+button > p {
+  margin: auto;
+  margin-top: -2px;
+}
+.backward {
+  background-color: rgb(85, 85, 85);
+}
+.farward {
+  background-color: rgb(50, 117, 243);
+  margin-left: 5px;
+}
+
+.counter {
+  margin-top: 0;
+}
